@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "85663714244",
+    "firebase_url": "https://chickendinner1234.firebaseio.com",
+    "project_id": "chickendinner1234",
+    "storage_bucket": "chickendinner1234.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:85663714244:android:1e61788f64569c128af291",
+        "android_client_info": {
+          "package_name": "com.slytherin.chickendinner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "85663714244-shli33495tr5hqkl94er2sokovb0if3g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.slytherin.chickendinner",
+            "certificate_hash": "38e24dfd1068b715d9dcd75b34579b0140e41edd"
+          }
+        },
+        {
+          "client_id": "85663714244-25ska8nb7majed7t6hlbg6hj9oe2g7hc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxm7zQtN7HZOrk3Bu7olfmXVuAPtx9Vl8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "85663714244-25ska8nb7majed7t6hlbg6hj9oe2g7hc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

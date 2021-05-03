@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".AdministratorLogin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/logo"
+            />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:src="@drawable/avataricon"
+            />
+        <TextView
+            android:id="@+id/textSlogan"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:text="Administrator Login"
+            android:textColor="@android:color/white"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/AdminloginID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="25dp"
+            android:hint="Admin ID"
+            android:text="IT18195330"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white"
+            android:textSize="15sp"
+            android:maxLength="11"/>
+
+        <EditText
+            android:id="@+id/AdminloginPassword"
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="25dp"
+            android:hint="Password"
+            android:text="12345"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white"
+            android:textSize="15sp"/>
+
+        <Button
+            android:id="@+id/btn_AdminsignIn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:text="@string/signIn"
+            android:textAllCaps="false"
+            android:background="@drawable/button_background"
+            android:layout_margin="8dp"
+            android:textColor="@android:color/white"/>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

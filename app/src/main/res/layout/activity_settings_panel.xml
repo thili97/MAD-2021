@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingsPanel">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="8dp">
+
+        <LinearLayout
+            android:layout_alignParentBottom="true"
+            android:weightSum="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="0dp">
+
+            <TextView
+                android:text="Clear my orders\nYou can cancel your all the orders"
+                android:textColor="@android:color/black"
+                android:layout_gravity="right"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/Btn_Settings_ClearOrders"
+                android:text="Clear"
+                android:layout_gravity="right"
+                android:textColor="@android:color/white"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@drawable/button_background"
+                android:textAllCaps="false"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_alignParentBottom="true"
+            android:weightSum="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="0dp">
+
+            <TextView
+                android:text="Clear my feedbacks\nYou can clear your all the feedbacks"
+                android:textColor="@android:color/black"
+                android:layout_gravity="right"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/Btn_Settings_ClearFeedbacks"
+                android:text="Clear"
+                android:layout_gravity="right"
+                android:textColor="@android:color/white"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@drawable/button_background"
+                android:textAllCaps="false"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_alignParentBottom="true"
+            android:weightSum="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="0dp">
+
+            <TextView
+                android:text="Deactivate\nDelete the Chicken Dinner account. Caution! once you deactivate your account, you cant signin using current phone number and password"
+                android:textColor="@android:color/black"
+                android:layout_gravity="right"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/Btn_Settings_Deactivate"
+                android:text="Deactivate"
+                android:layout_gravity="right"
+                android:textColor="@android:color/white"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@drawable/button_background"
+                android:textAllCaps="false"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
