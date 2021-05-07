@@ -28,7 +28,7 @@ public class AdministratorLogin extends AppCompatActivity {
         AsignIn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(Aid.getText().toString().equals("IT18195330") && Apassword.getText().toString().equals("12345")){
+                if(Aid.getText().toString().equals("IT18180480") && Apassword.getText().toString().equals("12345")){
                     Toast.makeText(AdministratorLogin.this, "Sign in success!", Toast.LENGTH_SHORT).show();
                     Intent resetIntent = new Intent(AdministratorLogin.this, AdminHomeScreen.class);
                     startActivity(resetIntent);
