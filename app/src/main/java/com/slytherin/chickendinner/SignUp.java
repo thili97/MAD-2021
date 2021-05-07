@@ -69,22 +69,7 @@ public class SignUp extends AppCompatActivity {
                         namesignup.setText(null);
                         namesignup.setHint("Invalid Name");
                         Toast.makeText(getApplicationContext(), "Invalid Name!", Toast.LENGTH_LONG).show();
-                    } else if (!UemailID.matches("[a-z.@0-9]+")) {
-                        namesignup.setText(null);
-                        namesignup.setHint("Invalid Email");
-                        Toast.makeText(getApplicationContext(), "Invalid Email!", Toast.LENGTH_LONG).show();
-                    } else {
-                        dbRef.child(UphoneID).setValue(ckdn);
-                        Toast.makeText(getApplicationContext(), "Profile Saved Successfully!", Toast.LENGTH_LONG).show();
-
-                        phonesignup.setText(null);
-                        namesignup.setText(null);
-                        passwordsignup.setText(null);
-                        emailsignup.setText(null);
-
-                        Intent signIntent = new Intent(SignUp.this, SignIn.class);
-                        startActivity(signIntent);
-                    }
+                    } 
                 }
             }
         });
