@@ -75,7 +75,7 @@ public class AddToCart extends AppCompatActivity {
                         OFcode.setText(null);
                         OFcode.setHint("Invalid Food Code");
                         Toast.makeText(getApplicationContext(), "Invalid Food Code!", Toast.LENGTH_LONG).show();
-                    } else if (!OrFqty.equals(0)) {
+                    } else if (OrFqty.isEmpty() || !OrFqty.matches("[1-9]+")) {
                         OFqty.setText(null);
                         OFqty.setHint("Invalid quantity");
                         Toast.makeText(getApplicationContext(), "Invalid quantity!", Toast.LENGTH_LONG).show();
