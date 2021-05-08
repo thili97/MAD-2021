@@ -108,7 +108,13 @@ public class AddToCart extends AppCompatActivity {
                 startActivity(MyOrders);
             }
         });
-        
+        btnDelete.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent MyOrders1 = new Intent(AddToCart.this, DeleteOrder.class);
+                startActivity(MyOrders1);
+            }
+        });
 
 
     }
