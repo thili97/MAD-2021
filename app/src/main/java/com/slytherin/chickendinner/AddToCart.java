@@ -17,7 +17,7 @@ public class AddToCart extends AppCompatActivity {
 
     EditText OFcode, OFqty, OFname, OFphone, OFaddress;
     RadioButton RBone, RBfour;
-    Button AddOrder, ViewOrders;
+    Button AddOrder, ViewOrders , btnDelete;
 
     DatabaseReference dbRef;
 
@@ -37,6 +37,7 @@ public class AddToCart extends AppCompatActivity {
         RBfour = (RadioButton)findViewById(R.id.rbFull);
         AddOrder = (Button)findViewById(R.id.btnAddCartNow);
         ViewOrders = (Button)findViewById(R.id.btnViewCartNow);
+        btnDelete = (Button)findViewById(R.id.btnDelete);
 
         ckdn = new OrderChickenDinner();
 
@@ -95,8 +96,10 @@ public class AddToCart extends AppCompatActivity {
 
                     }
                 }
+
             }
         });
+
 
         ViewOrders.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -105,7 +108,10 @@ public class AddToCart extends AppCompatActivity {
                 startActivity(MyOrders);
             }
         });
+        
 
 
     }
+
 }
+
