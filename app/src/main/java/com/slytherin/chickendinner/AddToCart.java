@@ -101,8 +101,8 @@ public class AddToCart extends AppCompatActivity {
         ViewOrders.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent MyOrder = new Intent(AddToCart.this, Orders.class);
-                startActivity(MyOrder);
+                Intent MyOrders = new Intent(AddToCart.this, Orders.class);
+                startActivity(MyOrders);
             }
         });
 
