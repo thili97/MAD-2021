@@ -85,7 +85,7 @@ public class AddToCart extends AppCompatActivity {
                         Toast.makeText(getApplicationContext(), "Invalid Address!", Toast.LENGTH_LONG).show();
                     } else {
                         dbRef.child(OrFphone).setValue(ckdn);
-                        Toast.makeText(getApplicationContext(), "Order Successfully!", Toast.LENGTH_LONG).show();
+                        Toast.makeText(getApplicationContext(), "Your orders are added Successfully!", Toast.LENGTH_LONG).show();
 
                         OFcode.setText(null);
                         OFqty.setText(null);
